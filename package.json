@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "start:dev": "cross-env PORT=2700 DEBUG=W7E* nodemon dist/index.js",
+    "start:dev": "cross-env PORT=2900 DEBUG=W7E* nodemon dist/index.js",
     "build": "tsc -w",
     "build:render": "tsc",
     "test": "jest --watchAll --coverage",
